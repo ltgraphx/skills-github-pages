@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LTGraphics- Web development, Graphic design, 3D, Animations and more">
+    <link rel="icon" href="img/logo/logo_ltgraphics_ill_darkblue_fav.png">
+    <link rel="apple-touch-icon" href="img/logo/logo_ltgraphics_apple_icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reusable.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>LTGraphics &mdash; Graphic design and much more!</title>
+</head>
+
+<body>
+    <header id="top" class="header sticky">
+
+        <a href="index.html"><img src="img/logo/logo_ltgraphics_ill_darkblue.png" class="header-img" alt=""></a>
+
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="#webdesign" class="link nav-link">Web design</a>
+                </li>
+                <li>
+                    <a href="#threed" class="link nav-link">3D</a>
+                </li>
+                <li>
+                    <a href="#graphic-design" class="link nav-link">Graphic design</a>
+                </li>
+                <li>
+                    <a href="#concept" class="link nav-link">Concept art</a>
+                </li>
+                <li>
+                    <a href="#animations" class="link nav-link">Animations</a>
+                </li>
+                <li>
+                    <a href="#cta" class="link nav-cta">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    <main>
+        <section class="section-hero">
+            <div class="hero  grid ">
+                <div class="hero-logo ">
+                    <img src="img/logo/hero-img.jpg " alt="lt graphics logo " class="logo-img ">
+                </div>
+                <div class="hero-box">
+                    <h1 class="primary-title "><span>Hi,</span>
+                        <br>Nice to see you here!</h1>
+                    <p class="hero-text"> I am a graphic designer, based in Oslo. I have experience in working with texts, layouts, 3D modeling and visualisations, animations and more! I can also design and build Websites using HTML, CSS and JavaScript.</p>
+                    <p class="hero-scroll">
+                        <a href="#webdesign" class="link scroll">Scroll down to see my portfolio &darr; </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+
+        <section class="portfolio-section container">
+            <div class="portfolio">
+
+                <h1 id="webdesign" class="primary-title ">Web design</h1>
+                <div class="gallery-3d grid grid--3-cols">
+                    <div class="img-box">
+                        <a href="img/WebDesign/omni1.jpg" data-lightbox="mygallery" data-title="Website design"><img src="img/WebDesign/sm/omni1_sm.jpg" class="portfolio-img" alt="Website design"></a>
+                    </div>
+                    <div class="img-box">
+                        <a href="img/WebDesign/omni2.jpg" data-lightbox="mygallery" data-title="Website design"><img src="img/WebDesign/sm/omni2_sm.jpg" class="portfolio-img" alt="Website design"></a>
+                    </div>
+
+                    <div class="img-box">
+                        <a href="img/WebDesign/omni4.jpg" data-lightbox="mygallery" data-title="Website responisvie design">
+                            <img src="img/WebDesign/sm/omni4_sm.jpg" class="portfolio-img" alt="Website responisvie design"></a>
+                    </div>
+                </div>
+                <div class="portfolio-see-more">
+                    <p>
+                        <a href="#" class="link portfolio-to-top">Back to the top &uarr;</a>
+                    </p>
+                    <p>
+                        <a href="gallery-web-design.html" class="link portfolio-link">See more &rarr;</a>
+                    </p>
+
+                </div>
+                <div class="portfolio">
+
+                    <h1 id="threed" class="primary-title ">3D projects</h1>
+                    <div class="gallery-3d grid grid--3-cols">
+                        <div class="img-box">
+                            <a href="img/3D/insta_red.webp" data-lightbox="mygallery" data-title="Room visualisation, Arnold renderer"><img src="img/3D/sm/insta3_sm.jpg" class="portfolio-img" alt="3d render, Arnold renderer"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/3D/room.jpg" data-lightbox="mygallery" data-title="Room visualisation, Arnold Renderer"><img src="img/3D/sm/room_sm.png" class="portfolio-img" alt="Room visualisation"></a>
+                        </div>
+
+                        <div class="img-box">
+                            <a href="img/3D/chocolade_apple.jpg" data-lightbox="mygallery" data-title="Chocolate simulation, Arnold renderer">
+                                <img src="img/3D/sm/apple_sm.jpg" class="portfolio-img" alt="Chocolate simulation"></a>
+                        </div>
+
+                    </div>
+                    <div class="portfolio-see-more">
+                        <p>
+                            <a href="#" class="link portfolio-to-top">Back to the top &uarr;</a>
+                        </p>
+                        <p>
+                            <a href="gallery-3d.html" class="link portfolio-link">See more &rarr;</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <h1 id="graphic-design" class="primary-title ">Graphic design</h1>
+                    <div class="gallery-graphic-design grid grid--3-cols">
+                        <div class="img-box">
+                            <a href="img/graphic design/flygeblad_ferdig.webp" data-lightbox="mygallery" data-title="Front page of a flyer made for a church in Oslo"><img src="img/graphic design/sm/flygeblad_ferdig_sm.webp" class="portfolio-img" alt="3d render"></a>
+                        </div>
+
+                        <div class="img-box">
+                            <a href="img/graphic design/mb2020.jpg" data-lightbox="mygallery" data-title="Cover of a Nordstrand church in Oslo magazine "><img src="img/graphic design/sm/mb2020.jpg" class="portfolio-img" alt="Cover of a Nordstrand church in Oslo magazine"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/graphic design/plakat_wsb.webp" data-lightbox="mygallery" data-title="Poster designed by me"><img src="img/graphic design/sm/plakat_sm.webp" class="portfolio-img" alt="Poster designed by me"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/graphic design/plakat 1-02.webp" data-lightbox="mygallery" data-title="Language school web banner designed by me"><img src="img/graphic design/sm/norsk_poster_sm.webp" class="portfolio-img" alt="Language school web banner designed by me"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/graphic design/honey-01.webp" data-lightbox="mygallery" data-title="Honey logo"><img src="img/graphic design/sm/logo_sm.png" class="portfolio-img" alt="Honey logo"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/graphic design/ak_logo.jpg" data-lightbox="mygallery" data-title="Logo I designed for a student group"><img src="img/graphic design/sm/ak_logo_sm.png" class="portfolio-img" alt="Logo I designed for a student group"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-see-more">
+                        <p>
+                            <a href="#" class="link portfolio-to-top">Back to the top &uarr;</a>
+                        </p>
+                        <p>
+                            <a href="gallery-graphic-design.html" class="link portfolio-link">See more &rarr;</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <h1 id="concept" class="primary-title ">Concept art</h1>
+                    <div class="gallery-graphic-design grid grid--3-cols">
+                        <div class="img-box">
+                            <a href="img/Illustrations/10.jpg" data-lightbox="mygallery" data-title="Character Design"><img src="img/Illustrations/sm/illustration_1.png" class="portfolio-img" alt="Illustration of a fantasy character"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/Illustrations/m4a1sherman-01.jpg" data-lightbox="mygallery" data-title="Illustration made for Spir Oslo"><img src="img/Illustrations/sm/sherman_sm.png" class="portfolio-img" alt="Illustration of a group of people"></a>
+                        </div>
+                        <div class="img-box">
+                            <a href="img/Illustrations/witcher2.jpg" data-lightbox="mygallery" data-title="Illustration made for Spir Oslo"><img src="img/Illustrations/sm/witcher_sm.png" class="portfolio-img" alt="Illustration of a group of people"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-see-more">
+                        <p>
+                            <a href="#" class="link portfolio-to-top">Back to the top &uarr;</a>
+                        </p>
+                        <p>
+                            <a href="gallery-illustrations.html" class="link portfolio-link">See more &rarr;</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <h1 id="animations" class="primary-title ">Animations</h1>
+                    <div class="gallery-animations grid">
+                        <div class="img-box">
+                            <iframe src="https://www.youtube.com/embed/JBovAceAY60?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="img-box">
+                            <iframe src="https://www.youtube.com/embed/bPH6CiIUyBc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="img-box">
+                            <iframe src="https://www.youtube.com/embed/mozAC9CfviU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="portfolio-see-more">
+                        <p>
+                            <a href="#" class="link portfolio-to-top">Back to the top &uarr;</a>
+                        </p>
+                        <p>
+                            <a href="gallery-animations.html" class="link portfolio-link">See more &rarr;</a>
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="cta" class="section-cta">
+            <div id="cta" class="container cta">
+                <div class="cta-text-box">
+                    <p class="primary-title-cta">Send me an email!</p>
+                    <form class="cta-form" action="https://formsubmit.co/ltgraphicscontact@gmail.com" method="POST">
+                        <label for="fullname">Full name</label>
+                        <input id="fullname" type="text" name="name" placeholder="John Smith" required>
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="myemail@email.com" required>
+                        <label for="message">Your Message</label>
+                        <textarea name="massage" id="message" cols="40" rows="10" placeholder="Your message"></textarea>
+                        <button class="cta-btn">Send</button>
+                    </form>
+                </div>
+                <div class="cta-image-box">image</div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="container grid grid--3-cols ">
+        <div class="copyright-logo ">
+            <a href="# ">
+                <img class="footer-img " src="img/logo/logo_ltgraphics_new_white.png "></a>
+            <p class="copyright ">Copyright &copy;
+                <span class="year ">2023</span> by LTGraphics. All rights reserved</p>
+        </div>
+        <div class="contact-col ">
+            <p class="footer-title ">Contact</p>
+            <ul class="footer-contact-list ">
+                <li>
+                    <ion-icon class="contact-icon" name="mail-outline"></ion-icon>
+                    <p>ltgraphicscontact@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <div class="social-col ">
+            <p class="footer-title ">Check out my social media</p>
+            <ul class="footer-social-list ">
+                <li>
+                    <a class="footer-link" href="https://www.instagram.com/_ltgraphics/">
+                        <ion-icon class="social-icon " name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>
